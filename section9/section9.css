@@ -162,3 +162,27 @@
     padding-left: 100px;
 }
 
+#section9 .LR h1::after{
+    content: "";
+    border-style: solid;
+    display: block;
+    width: 55px;
+    color:#26D8A8 ;
+    border-width: 2px;
+    padding-top: 5px;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+}
+#section9 .RL h1::after{
+    content: "";
+    border-style: solid;
+    display: block;
+    width: 55px;
+    color:#26D8A8 ;
+    border-width: 2px;
+    padding-top: 2px;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+}
