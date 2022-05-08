@@ -61,9 +61,9 @@
 #section2 {
     display: none;
 }
-
+/* section 3 */
 #section3{
-    height: 2220px;
+    height: 2500px;
     max-width: 760px;
 }
 
@@ -93,7 +93,9 @@
 }
 
 #section3 .container-1{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
 }
 
 #section3 .container-1>div{
@@ -103,10 +105,8 @@
     left: 0;
     top: 0;
     width: 350px;
-    height: 400px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    height: 700px; 
+   
 }
 
 /* section4 */
