@@ -25,7 +25,7 @@
              display: block;
              position:fixed;
              top: 10px;
-             left:310px;
+             left:360px;
              z-index: 2;
              cursor: pointer;
              width: 60px;
@@ -36,7 +36,7 @@
          #section1 .menu-wrap .hamburger{
              position: fixed;
              top: 10px;
-             left: 310px;
+             left: 360px;
              z-index: 1;
              width: 30px;
              height: 30px;
