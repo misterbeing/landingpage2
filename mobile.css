@@ -23,7 +23,7 @@
         }
         #section1 .toggler{
             display: block;
-            position: absolute;
+            position:fixed;
             top: 10px;
             left:310px;
             z-index: 2;
@@ -242,6 +242,8 @@
 #section4>div{
     margin: 4%;
     margin-top: 0%;
+    margin-left: 1%;
+    padding-left: 0%;
     width: 300px;
     text-align: left;
 } 
@@ -370,65 +372,113 @@
 }
 
 #section8>div{
-    width: 420px;
+    width: 390px;
     height: 100px;
     margin-left: 10px;
     padding-top:75px ;
     text-align: left;
 }
 
+#section8>div h1{
+    width: 330px;
+}
+
+#section8>div button{
+    width: 310px; ;
+}
+
 /* section 9 */
 
 #section9{
     margin-top: 100px;
-    width: 760px;
+    
     height: 5900px;
 }
 
 #section9 .top{
-    width: 450px;
+    width: 400px;
     margin: 0;
-    
-    margin-left: 20px;
+    height: 400px;
     text-align: left;
    
 }
 
+#section9 .top h1{
+    width: 320px;
+    height: 145px;
+}
+
 #section9 .LR{
-    display: block;
-    justify-content: center;
-    padding-top: 20px;
+    
+    justify-content: left;
+    flex-direction: column;
 }
-
 #section9 .RL{
-    display: block;
-    justify-content: center;
+    
+    justify-content: left;
+    flex-direction: column;
 }
 
-#section9 .threeimg .RL .text{
-    width: 505px;
-    height: 282px; 
+#section9 .LR .text{
+    width: 300px;
+}
+#section9 .LR .text h2{
+    width: 300px;
+}
+#section9 .RL .text{
+    width: 300px;
+}
+#section9 .RL .text h2{
+    width: 300px;
+}
+
+#section9 .threeimg .RL .image img {
+    object-fit: cover;
+    height: 452px;
+    width: 361px;
+}
+
+#section9 .threeimg .LR .image img {
+    object-fit: cover;
+    height: 452px;
+    width: 361px;
+}
+#section9 .LR .image img{
+    object-fit: cover;
+   height: 282px;
+   width:361px;
+}
+#section9 .RL .image img{
+    object-fit: cover;
+   height: 282px;
+   width:361px;
+}
+
+#section9 .threeimg .RL .text {
+    width: 300px;
+    height: 282px;
     float: left;
     position: relative;
-    top: 10px;
-    left: 0;
+    top: 150px;
+    padding-left: 0;
 }
 
-#section9 .threeimg .RL .text h1{
+#section9 .threeimg .RL .text h1 {
+    width: 357px;
     padding-left: 0px;
 }
-#section9 .threeimg .RL .text h2{
+#section9 .threeimg .RL .text h2 {
+    width: 357px;
     padding-left: 0px;
 }
-
 /* section10 */
 
 #section10 {
-    height: 2500px;
+    height: 2700px;
 }
 
 #section10 .first {
-    width: 590px;
+    width: 361px;
     height: 300px;
     text-align: left;
     margin-left: 0;
@@ -438,12 +488,12 @@
     font-weight: bold;
     font-size: 34px;
     padding: 0%;
-    width: 570px;
-    height: 160px;
+    width: 350px;
+    height: 260px;
 }
 
 #section10 .first h2{
-    width: 550px;
+    width: 330px;
     height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
@@ -458,6 +508,29 @@
     justify-content: center;
     margin-top: 80px;
     height: 400px;
+}
+
+#section10 .LR .text h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    width: 330px;
+    letter-spacing: 0.09px;
+}
+
+#section10 .RL{
+    display: block;
+    justify-content: center;
+    margin-top: 80px;
+    height: 400px;
+}
+
+#section10 .RL .text h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    width: 330px;
+    letter-spacing: 0.09px;
 }
 
 #section10 img{
@@ -478,13 +551,35 @@
 }
 
 #section11 h2{
-    width: 500px;
-    height: 200px;
+    width: 320px;
+    height: 300px;
 }
 
 #section11 .container-1{
     display: block;
     height: 1100px;
+}
+
+#section11 .container-1>div {
+    padding-left: 0%;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    top: 0;
+    width: 331px;
+    height: 332px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+#section11 .container-1>div h1{
+    padding-left: 0;
+}
+#section11 .container-1>div h2{
+    padding-left: 0;
+}
+#section11 .container-1>div img{
+    padding-left: 0;
 }
 
 /* section12 */
@@ -496,10 +591,15 @@
 }
 
 #section12 .heading{
-    width: 500px;
+    width: 300px;
     margin-left: 10px;
     text-align: left;
-    height:250px ;
+    height:200px ;
+}
+
+#section12 .heading h1{
+    width: 300px;
+    height: 300px;
 }
 
 #section12 .container{
